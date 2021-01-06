@@ -66,7 +66,7 @@ mount /dev/sda1 /mnt/boot
 swapon /dev/sda3
 mount /dev/sda4 /mnt/home
 
-echo '3.1 Выбор зеркал для загрузки. Ставим зеркало от Яндекс'
+echo '3.1 Выбор зеркал для загрузки. Ставим зеркало от Софтваре'
 echo "Server = http://mirror.pointysoftware.net/archlinux/\$repo/os/\$arch" > /etc/pacman.d/mirrorlist
 
 echo '3.2 Установка основных пакетов'
